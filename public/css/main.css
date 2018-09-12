@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	margin: auto 10%;
+}
+
+header {
+	margin-bottom: 200px;
+}
+
+form {
+	width: 60%;
+}
+
+textarea {
+   resize: none;
+}
+
+#main-heading {
+	text-align: center;
+}
+
+#navigation {
+	margin-top: -60px;
+}
+
+#navigation a {
+	float: right;
+	margin-right: 5px;
+}
+
+#navigation a:first-child {
+	float: left;
+}
+
+.btn {
+	float: right;
+	margin-right: 5px;
+}
+
+.btn:first-child {
+	float: left;
+}
+
+#navigation::after{
+	clear: both;
+	display: block;
+	content: '';
+}
+
+.post {
+	margin-bottom: 125px;
+	width: 60%;
+}
+
+.post h2 {
+	margin-bottom: -5px;
+}
+
+.post h4 {
+	margin-top: 40px;
+} 
+
+.post a {
+	color:black;
+}
+
+.edit-btn {
+	float: left;
+}
+
+.welcome-msg {
+	position:absolute;
+	left: 10%; 
+	top:80px;
+}
